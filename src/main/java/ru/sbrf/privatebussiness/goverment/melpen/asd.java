@@ -30,5 +30,6 @@ public class asd implements ApplicationListener<ContextRefreshedEvent> {
        filesDeleteDto.setFileIds(Arrays.asList(1L,2L));
         System.out.println(filesDeleteDto.getFileIds());
 //        kafkaTemplate.send("",filesDeleteDto);
+
     }
 }
