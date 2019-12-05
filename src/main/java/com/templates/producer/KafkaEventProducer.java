@@ -1,4 +1,4 @@
-package ru.sbrf.privatebussiness.goverment.melpen.producer;
+package com.templates.producer;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.beans.factory.annotation.Value;

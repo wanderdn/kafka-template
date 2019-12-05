@@ -1,10 +1,8 @@
-package ru.sbrf.privatebussiness.goverment.melpen.model.dto;
+package com.templates.model.dto;
 
-import jdk.nashorn.internal.ir.annotations.Immutable;
 
 import java.util.List;
 import java.util.UUID;
-@Immutable
 public class FilesDeleteDto {
 
     private UUID id;

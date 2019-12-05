@@ -1,17 +1,14 @@
-package ru.sbrf.privatebussiness.goverment.melpen.controller;
+package com.templates.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.templates.model.dto.FilesDeleteDto;
+import com.templates.service.KafkaTaskExecuteService;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
-import ru.sbrf.privatebussiness.goverment.melpen.model.dto.FilesDeleteDto;
-import ru.sbrf.privatebussiness.goverment.melpen.service.KafkaTaskExecuteService;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 

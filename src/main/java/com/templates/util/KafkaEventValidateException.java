@@ -1,4 +1,4 @@
-package ru.sbrf.privatebussiness.goverment.melpen.util;
+package com.templates.util;
 
 public class KafkaEventValidateException extends Exception {
 

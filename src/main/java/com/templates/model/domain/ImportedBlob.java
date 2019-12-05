@@ -1,4 +1,4 @@
-package ru.sbrf.privatebussiness.goverment.melpen.model.domain;
+package com.templates.model.domain;
 
 import javax.persistence.*;
 import java.util.UUID;

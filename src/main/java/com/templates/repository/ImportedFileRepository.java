@@ -1,8 +1,8 @@
-package ru.sbrf.privatebussiness.goverment.melpen.repository;
+package com.templates.repository;
 
-import org.springframework.transaction.annotation.Transactional;
-import ru.sbrf.privatebussiness.goverment.melpen.model.domain.ImportFileJournal;
+import com.templates.model.domain.ImportFileJournal;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
